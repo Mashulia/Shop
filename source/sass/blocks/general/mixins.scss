@@ -1,0 +1,23 @@
+@mixin reset-list() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin reset-indents() {
+  margin: 0;
+}
+
+.indents-mobile {
+  padding: 0 11px;
+}
+
+.indents-tablet {
+  padding: 0 22px;
+}
+
+.indents-desktop {
+  padding: 0 30px;
+}
+
+
