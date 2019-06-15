@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="25px" height="8px" viewBox="0 0 25 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
-    <title>Фигура 3 копия</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-435.000000, -667.000000)" fill="#22222E">
-            <g id="b1" transform="translate(-1.000000, 0.000000)">
-                <g id="слайдер" transform="translate(428.000000, 190.000000)">
-                    <path d="M32.802048,480.296776 L14.415792,480.296776 C15.301712,478.997416 15.742684,478.149856 15.78796,476.994484 C13.772884,478.986292 11.153288,480.023416 7.987776,480.99862 C11.153288,481.932796 13.65744,483.073204 15.78796,485.00416 C15.652076,483.748624 15.284548,482.99044 14.388268,481.608652 L32.802048,481.608652 L32.802048,480.296776 Z" id="Фигура-3-копия"></path>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="25" height="8" xmlns="http://www.w3.org/2000/svg"><path d="M24.802 3.297H6.416c.886-1.3 1.327-2.147 1.372-3.303C5.773 1.986 3.153 3.024-.012 4c3.165.934 5.67 2.074 7.8 4.005-.136-1.255-.503-2.014-1.4-3.395h18.414V3.297z" fill="#22222E" fill-rule="evenodd"/></svg>
