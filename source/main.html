@@ -15,6 +15,76 @@
     <script src="js/picturefill.min.js"></script>
 </head>
 <body>
-
+  <div style="display:none">
+    <include src="build/img/sprite.svg"></include>
+  </div>
+  <header class="header">
+    <div class="header__wrapper-desktop container">
+      <div class="header__wrapper">
+        <ul class="header__social-list">
+          <li class="header__social-item">
+            <a class="header__social-link" href="#vk">
+              <svg class="header__social-icon header__social-icon--vk" width="20" height="13" xmlns="http://www.w3.org/2000/svg" >
+                <use xlink:href="#vk"></use>
+              </svg>
+              <span class="visually-hidden">Мы во ВКонтакте</span>
+            </a>
+          </li>
+          <li class="header__social-item">
+            <a class="header__social-link" href="#fb">
+              <svg class="header__social-icon header__social-icon--fb" width="10" height="18" xmlns="http://www.w3.org/2000/svg" >
+                <use xlink:href="#fb"></use>
+              </svg>
+              <span class="visually-hidden">Мы на фейсбуке</span>
+            </a>
+          </li>
+          <li class="header__social-item">
+            <a class="header__social-link" href="#instagram">
+              <svg class="header__social-icon header__social-icon--instagram" width="17" height="17" xmlns="http://www.w3.org/2000/svg" >
+                <use xlink:href="#instagram"></use>
+              </svg>
+              <span class="visually-hidden">Мы в инстаграм</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="header__menu-list">
+          <li class="header__menu-item"><a href="#">Условия доставки</a></li>
+          <li class="header__menu-item"><a href="#">Способы оплаты</a></li>
+        </ul>
+        <div class="header__phone">
+          <svg class="header__phone-icon" width="17" height="17" xmlns="http://www.w3.org/2000/svg" >
+            <use xlink:href="#phone"></use>
+          </svg>
+          <a class="header__phone-link" href="tel:88003420880">8 800 342-08-80</a>
+        </div>
+      </div>
+    </div>
+    <div class="header__wrapper-mobile container">
+      <button class="header__button" type="button">
+        <svg class="header__button-icon" width="20" height="20" xmlns="http://www.w3.org/2000/svg" >
+          <use xlink:href="#menu"></use>
+        </svg>
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <ul class="header__user-list">
+        <li class="header__user-item">
+          <label class="header__search-label" for="search" tabindex="0">
+            <svg class="header__user-icon header__user-icon--search" width="20" height="20" xmlns="http://www.w3.org/2000/svg" >
+            <use xlink:href="#search"></use>
+            </svg>
+          </label>
+          <input class="header__search-input" type="text" name="search" id="search">
+        </li>
+        <li class="header__user-item">
+          <a href="#">
+            <svg class="header__user-icon header__user-icon--shopping-bag" width="10" height="18" xmlns="http://www.w3.org/2000/svg" >
+              <use xlink:href="#shopping-bag"></use>
+            </svg>
+            <span class="header__user-number">2</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
 </body>
 </html>

@@ -8,14 +8,14 @@
   margin: 0;
 }
 
-.indents-mobile {
-  padding: 0 11px;
+@mixin indents-mobile() {
+  padding: 0 21px 0 14px;
 }
 
-.indents-tablet {
-  padding: 0 22px;
+@mixin indents-tablet() {
+  padding: 0 23px;
 }
 
-.indents-desktop {
-  padding: 0 30px;
+@mixin indents-desktop() {
+  padding: 0 15px;
 }
