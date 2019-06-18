@@ -1,0 +1,122 @@
+.slider {
+  @include reset-list();
+}
+
+.slider__info {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 371px;
+}
+
+.slider__content {
+  @include reset-indents();
+  position: relative;
+  width: 817px;
+  margin-left: auto;
+  background-color: #b39d93;
+
+  &::before {
+    content: "SALE";
+    position: absolute;
+    top: 45px;
+    left: -25px;
+    font-family: $font-complementary;
+    font-size: 136px;
+    line-height: 52.54px;
+    letter-spacing: 7.5px;
+    color: #e6eaed;
+    opacity: 0.4;
+  }
+}
+
+.slider__sale {
+  font-family: $font-complementary;
+  font-size: 120px;
+  line-height: 60px;
+  letter-spacing: 3.6px;
+  color: $primary-color;
+}
+
+.slider__title {
+  display: block;
+  padding-left: 80px;
+  font-family: $font-complementary;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.slider__date {
+  display: block;
+  margin-bottom: 30px;
+  padding-left: 80px;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.slider__number {
+  @include reset-indents();
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+
+  &-item {
+    line-height: 36px;
+    color: $white-color;
+
+    &--active {
+      font-size: 24px;
+      font-weight: 700;
+      color: $primary-color;
+    }
+  }
+}
+
+.slider__arrow {
+  position: absolute;
+  font: inherit;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: bold;
+  color: inherit;
+  border: none;
+  background-color: transparent;
+
+  &:hover,
+  &:focus {
+    color: $white-color;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    width: 25px;
+    height: 8px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  &--next {
+    top: 15px;
+    right: 5px;
+
+    &::after {
+      background-image: url("../../../img/arrow-next.svg");
+      }
+    }
+
+  &--prev {
+    bottom: 15px;
+    left: 5px;
+
+    &::after {
+      background-image: url("../../../img/arrow-prev.svg");
+    }
+  }
+}
+
+@media (max-width: $desktop-width) {}
+@media (max-width: $tablet-width) and (min-width: $mobile-width) {}

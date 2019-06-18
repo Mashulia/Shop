@@ -1,0 +1,81 @@
+.user-list {
+    @include reset-list;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 79px;
+  }
+
+  .user-list--desktop {
+    margin-left: auto;
+    margin-top: 18px;
+    width: 91px;
+  }
+
+  .user-list__item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+  }
+
+  .user-list__search-input {
+    display: none;
+  }
+
+  .user-list__icon {
+    fill: $white-color;
+
+    &--search {
+      width: 20px;
+      height: 20px;
+
+      &:focus,
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    &--shopping-bag {
+      position: relative;
+      width: 20px;
+      height: 21px;
+    }
+
+    &:focus,
+    &:hover {
+      fill: rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  .user-list--desktop .user-list__icon {
+    fill: $main-color;
+
+    &:focus,
+    &:hover {
+      fill: $menu-color;
+    }
+  }
+
+  .user-list__number {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -9px;
+    left: 60%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid $dark-bg-color;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 700;
+    background-color: $primary-color;
+    text-align: center;
+    color: #5f4f40;
+  }
+
+  .user-list--desktop .user-list__number {
+    border: 2px solid $white-color;
+  }
