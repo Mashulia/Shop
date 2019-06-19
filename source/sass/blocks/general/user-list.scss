@@ -79,3 +79,12 @@
   .user-list--desktop .user-list__number {
     border: 2px solid $white-color;
   }
+
+@media (max-width: $desktop-width) {
+
+}
+@media (max-width: $tablet-width) and (min-width: $mobile-width) {
+  .user-list--desktop {
+    display: none;
+  }
+}

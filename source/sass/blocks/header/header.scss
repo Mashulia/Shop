@@ -160,6 +160,7 @@
     &:focus,
     &:hover {
       fill: $white-color;
+      cursor: pointer;
     }
   }
 }

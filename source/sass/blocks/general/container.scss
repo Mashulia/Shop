@@ -17,4 +17,8 @@
   .container {
     @include indents-mobile();
   }
+
+  .banner.container {
+    padding: 0;
+  }
 }
